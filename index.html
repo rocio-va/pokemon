@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <input type="number" class="js-input-id">
+        <button type="button" class="js-btn-id btn btn-warning">Search</button>
+      </div>
+      <div class="col-sm-3">
+        <!-- Single button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Select type <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="js-a-type" href="#" data-id="1">Normal</a></li>
+            <li><a class="js-a-type" href="#" data-id="2">Fighting</a></li>
+            <li><a class="js-a-type" href="#" data-id="3">Flying</a></li>
+            <li><a class="js-a-type" href="#" data-id="4">Poison</a></li>
+            <li><a class="js-a-type" href="#" data-id="5">Ground</a></li>
+            <li><a class="js-a-type" href="#" data-id="6">Rock</a></li>
+            <li><a class="js-a-type" href="#" data-id="7">Bug</a></li>
+            <li><a class="js-a-type" href="#" data-id="8">Ghost</a></li>
+            <li><a class="js-a-type" href="#" data-id="9">Steel</a></li>
+            <li><a class="js-a-type" href="#" data-id="10">Fire</a></li>
+            <li><a class="js-a-type" href="#" data-id="11">Water</a></li>
+            <li><a class="js-a-type" href="#" data-id="12">Grass</a></li>
+            <li><a class="js-a-type" href="#" data-id="13">Electric</a></li>
+            <li><a class="js-a-type" href="#" data-id="14">Psychic</a></li>
+            <li><a class="js-a-type" href="#" data-id="15">Ice</a></li>
+            <li><a class="js-a-type" href="#" data-id="16">Dragon</a></li>
+            <li><a class="js-a-type" href="#" data-id="17">Dark</a></li>
+            <li><a class="js-a-type" href="#" data-id="18">Fairy</a></li>
+          </ul>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="js-cards">
+      
+    </div>
+  </div>
+  <div class="my-modal modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>

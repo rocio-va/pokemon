@@ -1,0 +1,16 @@
+.js-card{
+  width: 250px;
+  height: 310px;
+  margin: 1px;
+  padding: 5px;
+  border: 1px solid black;
+  display: inline-table;
+}
+
+.js-poke-name{
+  display: inline-block;
+}
+
+.js-img-front{
+  display: inline-block;
+}
